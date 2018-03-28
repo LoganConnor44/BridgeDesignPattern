@@ -1,10 +1,10 @@
 ﻿namespace BridgeDesignPattern.Abstractions
 {
-    class RefinedAbstraction : Abstraction
+    public class RefinedAbstraction : Abstraction
     {
-        public override void Operation()
+        public override string Operation()
         {
-            _implementor.Operation();
+            return _implementor.Operation();
         }
     }
 }

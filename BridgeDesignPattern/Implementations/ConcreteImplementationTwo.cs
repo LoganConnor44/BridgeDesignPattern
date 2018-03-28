@@ -1,12 +1,10 @@
-﻿using System;
-
-namespace BridgeDesignPattern.Implementations
+﻿namespace BridgeDesignPattern.Implementations
 {
-    class ConcreteImplementationTwo : Implementor
+    public class ConcreteImplementationTwo : Implementor
     {
-        public override void Operation()
+        public override string Operation()
         {
-            Console.WriteLine("ConcreteImplementationTwo Operation");
+            return "ConcreteImplementationTwo Operation";
         }
     }
 }

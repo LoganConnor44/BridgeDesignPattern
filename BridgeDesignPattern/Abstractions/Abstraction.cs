@@ -1,4 +1,6 @@
-﻿namespace BridgeDesignPattern
+﻿using BridgeDesignPattern.Implementations;
+
+namespace BridgeDesignPattern.Abstractions
 {
     public class Abstraction
     {
@@ -6,9 +8,9 @@
 
         public Implementor Implementor { set => _implementor = value; }
 
-        public virtual void Operation()
+        public virtual string Operation()
         {
-            _implementor.Operation();
+            return _implementor.Operation();
         }
     }
 }

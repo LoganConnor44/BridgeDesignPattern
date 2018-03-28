@@ -1,7 +1,7 @@
 ﻿namespace BridgeDesignPattern.Implementations
 {
-    abstract class Implementor
+    public abstract class Implementor
     {
-        public abstract void Operation();
+        public abstract string Operation();
     }
 }
