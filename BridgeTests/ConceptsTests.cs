@@ -9,7 +9,7 @@ namespace BridgeTests
     public class ConceptsTests
     {
         [TestMethod]
-        public void ConsoleWriteLineTests()
+        public void TestOperation()
         {
             Abstraction ab = new RefinedAbstraction();
 
